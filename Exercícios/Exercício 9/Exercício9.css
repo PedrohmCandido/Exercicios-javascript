@@ -1,0 +1,22 @@
+#container {
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 350px 10px;
+}
+
+#botao {
+    margin: 10px auto 10px;
+    display: block;
+}
+
+#base1 {
+    margin: 10px auto 10px;
+}
+
+#base2 {
+    margin: 10px auto 10px;
+}
+
+#altura {
+    margin: 10px auto 10px;
+}

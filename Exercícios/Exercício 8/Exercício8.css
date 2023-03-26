@@ -1,0 +1,14 @@
+#container {
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 350px 10px;
+}
+
+#botao {
+    margin: 10px auto 10px;
+    display: block;
+}
+
+#peso {
+    margin: 10px auto 10px;
+}

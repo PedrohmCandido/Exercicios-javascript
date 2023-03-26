@@ -1,0 +1,14 @@
+#container {
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px 350px 10px;
+}
+
+#lado {
+    margin: 10px auto 10px;
+}
+
+#botao {
+    margin: 10px auto 10px;
+    display: block;
+}

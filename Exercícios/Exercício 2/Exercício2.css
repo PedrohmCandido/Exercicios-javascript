@@ -1,0 +1,25 @@
+#container {
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px 350px 10px;
+}
+
+ #n1 {
+    margin: 10px auto 10px;
+ }
+
+ #n2 {
+    margin: 10px auto 10px;
+ }
+
+ #n3 {
+    margin: 10px auto 10px;
+ }
+
+ #button {
+    margin: 10px auto 10px;
+ }
+
+ #multiplicacao {
+    display: block;
+ }
