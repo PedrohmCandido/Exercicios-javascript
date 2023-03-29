@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicional</title>
+    <link rel="stylesheet" href="adicional.css">
+</head>
+
+<body>
+    <h2 id="titulo">
+        Items adicionais Kit alimentação + suplemento
+    </h2>
+    <div id="container">
+        <div>
+            <input onclick="verificachecagem('padrao')" type="checkbox" id="padrao" /> Conunto Padrão
+            <input type="number" id="qtdePadrao" disabled="true" />
+        </div>
+        <div>
+            <input onclick="verificachecagem('kit')" type="checkbox" id="kit" /> kit alimentação
+            <input type="number" id="qtdeKit" disabled="true" />
+        </div>
+        <div>
+            <input onclick="verificachecagem('suplemento')" type="checkbox" id="suplemento" /> Suplemento
+            <input type="number" id="qtdeSuplemento" disabled="true" />
+        </div>
+        <div>
+            <input onclick="verificachecagem('arroz')" type="checkbox" id="arroz" /> Arroz
+            <input type="number" id="qtdeArroz" disabled="true" />
+        </div>
+        <div>
+            <input onclick="verificachecagem('feijao')" type="checkbox" id="feijao" /> Feijão
+            <input type="number" id="qtdeFeijao" disabled="true" />
+        </div>
+        <div>
+            <button onclick="calcularadicional()" id="botao">
+                Calcular Adicional
+            </button>
+        </div>
+        <div>
+            <p id="total">
+                
+            </p>
+        </div>
+    </div>
+    <script src="adicional.js"></script>
+</body>
+
+</html>
